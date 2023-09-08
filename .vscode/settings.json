@@ -1,3 +1,5 @@
 {
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "python.linting.mypyEnabled": true,
+    "editor.formatOnSave": true
 }
