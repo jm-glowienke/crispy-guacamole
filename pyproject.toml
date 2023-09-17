@@ -31,3 +31,10 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 crispy-guacamole = "crispy_guacamole.cli:app"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.black]
+line-length = 110
