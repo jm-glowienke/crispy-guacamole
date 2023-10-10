@@ -38,3 +38,4 @@ target-version = "py311"
 
 [tool.black]
 line-length = 110
+force-exclude = "data"
