@@ -8,15 +8,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 typer = "^0"
-fastapi = "^0.103.1"
-pydantic = "^2.3.0"
-
-
+fastapi = "^0.115.2"
+pydantic = "^2.9.2"
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1.5.1"
-black = "^23.7.0"
-ruff = "^0.0.287"
+mypy = "^1.12.1"
+black = "^24.10.0"
+ruff = "^0.7.0"
 pre-commit = "^3.4.0"
 ipykernel = "^6.25.2"
 isort = "^5.12.0"
